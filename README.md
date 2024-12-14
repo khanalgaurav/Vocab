@@ -1,0 +1,1 @@
+"Vocab" is a user-friendly app tailored for students preparing for standardized exams like IELTS, TOEFL, and GRE, providing a structured way to enhance vocabulary skills. It categorizes words into four distinct levels—Easy, Medium, Hard, and a dedicated list for High-frequency GRE words—enabling users to learn progressively and focus on exam-relevant terms.
