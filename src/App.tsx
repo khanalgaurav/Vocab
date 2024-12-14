@@ -13,7 +13,7 @@ function App() {
       <div className="overflow-x-hidden">
         <BrowserRouter>
           <Vocab />
-          <Navbar name="wasup" />
+          <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/warmup" element={<Warmup />} />

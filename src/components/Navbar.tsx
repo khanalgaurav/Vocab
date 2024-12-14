@@ -1,12 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { CiHome } from "react-icons/ci";
-import { FaHome, FaStar } from "react-icons/fa";
-("react-icons");
-type Props = {
-  name: string;
-};
+import { FaStar } from "react-icons/fa";
 
-const Navbar = ({ name }: Props) => {
+const Navbar = () => {
   return (
     <div className="flex justify-between  fixed bottom-0 w-full bg-navbar py-1 rounded-t-2xl  text-white">
       <div className="">
