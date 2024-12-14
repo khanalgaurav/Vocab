@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import words from "../Data/hard.js";
+import words from "../Data/hard.ts";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
 
 const Hard = () => {

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import words from "../Data/intermediate.js";
+import words from "../Data/intermediate.ts";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
 
 const Intermediate = () => {

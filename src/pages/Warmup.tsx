@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import words from "../Data/warm-up.js";
+import words from "../Data/warm-up.ts";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
 const Warmup = () => {
   const [random, setRandom] = useState<number>(Math.floor(Math.random() * 239));

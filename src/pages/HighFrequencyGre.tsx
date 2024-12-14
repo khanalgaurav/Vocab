@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import words from "../Data/high-frequency-gre.js";
+import words from "../Data/high-frequency-gre.ts";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
 
 const HighFrequencyGre = () => {
@@ -36,7 +36,7 @@ const HighFrequencyGre = () => {
           <p className="text-base ">
             <span className="text-green-600 font-bold text-lg">Example:-</span>
             <br />
-            Examples are not included in the GRE data {words[random].example}
+            Examples are not included in the GRE data
           </p>
         </div>
         {/* <button className="w-fit bg-blue-500 px-7 py-2 rounded-full text-white mt-5 ml-[50%] -translate-x-[50%]">

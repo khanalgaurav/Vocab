@@ -1,4 +1,12 @@
-const words = [
+type Word = {
+  word: string;
+  difficulty: number;
+  frequency: number;
+  definition: string;
+  example: string;
+  language: string;
+};
+const words: Word[] = [
   {
     word: "appropriate",
     difficulty: 520,

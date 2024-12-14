@@ -1,4 +1,12 @@
-const words = [
+type Word = {
+  word: string;
+  difficulty: number;
+  frequency: number;
+  definition: string;
+  language: string;
+};
+
+const words: Word[] = [
   {
     word: "abate",
     difficulty: 580,
@@ -1143,6 +1151,7 @@ const words = [
   {
     word: "pate",
     frequency: 10129,
+    difficulty: 600,
     definition:
       "liver or meat or fowl finely minced or ground and variously seasoned",
     language: "en",
